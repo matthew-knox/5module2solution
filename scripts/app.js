@@ -28,7 +28,7 @@ function ShoppingListCheckOffService() {
   // List of items
   var itemsToBuyList = [
     {
-      name: "cockie",
+      name: "cookie",
       quantity: 10
     },
     {
@@ -36,15 +36,15 @@ function ShoppingListCheckOffService() {
       quantity: 2
     },
     {
-      name: "coffie",
+      name: "cheese",
       quantity:5
     },
     {
-      name: "ice-cream",
+      name: "ice cream",
       quantity: 6
     },
     {
-      name: "water",
+      name: "gallons of water",
       quantity: 10
     },
   ];
