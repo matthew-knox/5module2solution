@@ -10,7 +10,7 @@ function ToBuyController (ShoppingListCheckOffService) {
   var toBuyList = this;
   toBuyList.items = ShoppingListCheckOffService.getItemsToBuyList();
 
-  toBuyList.buiedItem = function (itemIndex, item) {
+  toBuyList.buyItem = function (itemIndex, item) {
     ShoppingListCheckOffService.removeItemFromToBuyList(itemIndex);
     ShoppingListCheckOffService.addItemToBoughtList(item);    
   }
